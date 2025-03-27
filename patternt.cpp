@@ -677,44 +677,50 @@ while (i<= n )
 
 //problem no 21
 
-int n ;
-cin >>n ;
+// int n ;
+// cin >>n ;
 
-int i = 1 ;
-int count = 1 ;
+// int i = 1 ;
+// int count = 1 ;
 
-while (i <= n )
-{
-    // print space
-    int j = 1 ;
-    while (j <= n-i) 
-    {
-        cout << "*";
-        j++;
-    }
-    // print number
-    int k = 1 ;
+// while (i <= n )
+// {
+//     // print space
+//     int j = 1 ;
+//     while (j <= n-i) 
+//     {
+//         cout << "*";
+//         j++;
+//     }
+//     // print number
+//     int k = 1 ;
    
    
-    while (k <= i)
-    {
-        cout << count  ;
-       count  = count + 1 ;
+//     while (k <= i)
+//     {
+//         cout << count  ;
+//        count  = count + 1 ;
     
-       k++;
-    }
-    cout << endl;
-    i++;
+//        k++;
+//     }
+//     cout << endl;
+//     i++;
 
 
 
-}
+// }
 
 //output
 // ***1
 // **23
 // *456
 // 78910
+
+
+//problem no 22
+
+
+
 }
 
 
