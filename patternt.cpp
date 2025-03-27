@@ -597,36 +597,36 @@ while (i<= n )
 //problem no 20
 
 
-int n ;
-cin >>n ;
+// int n ;
+// cin >>n ;
 
-int i = 1 ;
+// int i = 1 ;
 
-while (i <= n )
-{
-     /* print space */
+// while (i <= n )
+// {
+//      /* print space */
 
-    int j = 1;
-    while (j<= n - i )
-    {
-        cout << " ";
-        j++;
-    }
+//     int j = 1;
+//     while (j<= n - i )
+//     {
+//         cout << " ";
+//         j++;
+//     }
 
 
    
-    /* print star */
-    int k = 1 ;
-    while (k <= i )
-    {
-        cout << i;
-        k++;
-    }
+//     /* print star */
+//     int k = 1 ;
+//     while (k <= i )
+//     {
+//         cout << i;
+//         k++;
+//     }
 
-    cout << endl;
-    i++;
+//     cout << endl;
+//     i++;
 
-}    
+// }    
 
 //output
 // ---1
@@ -638,14 +638,92 @@ while (i <= n )
 
 //problem no 20
 
+// int n ;
+// cin >>n ;
+
+// int i = 1 ;
+
+// while (i <= n )
+// {
+//      // print space
+//      int j = 1 ;
+//         while (j <= i -1  )
+//         {
+//             cout << "*";
+//             j++;
+//         }
+//     // print number
+
+//     int k = 1;
+//     while (k<=  n-i+1 ) 
+//     {
+       
+//         cout << k + i - 1;
+      
+      
+//         k++;
+//     }
+
+//     cout << endl;
+//     i++;
+// }
+
+//output
+// 1234
+// *234
+// **34
+// ***4
 
 
+//problem no 21
 
+int n ;
+cin >>n ;
 
+int i = 1 ;
+int count = 1 ;
+
+while (i <= n )
+{
+    // print space
+    int j = 1 ;
+    while (j <= n-i) 
+    {
+        cout << "*";
+        j++;
+    }
+    // print number
+    int k = 1 ;
+   
+   
+    while (k <= i)
+    {
+        cout << count  ;
+       count  = count + 1 ;
+    
+       k++;
+    }
+    cout << endl;
+    i++;
 
 
 
 }
+
+//output
+// ***1
+// **23
+// *456
+// 78910
+}
+
+
+
+
+
+
+
+
 
 
     
